@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="chart" t="Include">
@@ -15,6 +16,7 @@
       <e p="cn-service.csproj" t="IncludeRecursive" />
       <e p="Controllers" t="Include">
         <e p="v1" t="Include">
+          <e p="ChuckNorrisController.cs" t="Include" />
           <e p="SampleController.cs" t="Include" />
         </e>
       </e>

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace cn_service.Controllers.v1
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/Sample")]
     [ApiController]
     public class SampleController : ControllerBase
     {
