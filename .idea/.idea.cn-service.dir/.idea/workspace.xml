@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80904e4-1cb2-45b4-8122-e671375053c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/v1/ChuckNorrisController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/ChuckNorrisContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/v1/SampleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/v1/SampleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cn-service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cn-service.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +30,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/rleibold/Documents/git/cn-service/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/rleibold/Documents/git/cn-service/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Controllers/v1/SampleController.cs" />
       <option value="$PROJECT_DIR$/Controllers/v1/ChuckNorrisController.cs" />
+      <option value="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" />
+      <option value="$PROJECT_DIR$/Models/ChuckNorrisContext.cs" />
+      <option value="$PROJECT_DIR$/Startup.cs" />
+      <option value="$PROJECT_DIR$/cn-service.csproj" />
+      <option value="$PROJECT_DIR$/appsettings.json" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1merfODzRombahGdytLgf4uTEO8" />
@@ -80,15 +101,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609865009159</updated>
-      <workItem from="1609865020538" duration="2608000" />
+      <workItem from="1609865020538" duration="3876000" />
+      <workItem from="1609952770866" duration="1062000" />
+      <workItem from="1609956592146" duration="2929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -99,6 +132,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

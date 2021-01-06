@@ -1,3 +1,5 @@
+using System;
+using System.Reflection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -7,6 +9,11 @@ using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using cn_service.HealthChecks;
+using cn_service.Models;
+using Microsoft.EntityFrameworkCore.Diagnostics;
+using Microsoft.EntityFrameworkCore;
+using MySQL.Data.EntityFrameworkCore;
+
 
 namespace cn_service
 {
@@ -40,6 +47,15 @@ namespace cn_service
                     "ready-health-check",
                     failureStatus: HealthStatus.Degraded,
                     tags: new[] { "ready" });
+            
+            services.AddDbContext<ChuckNorrisContext>(options =>
+            {
+                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
+                // Changing default behavior when client evaluation occurs to throw.
+                // Default in EFCore would be to log warning when client evaluation is done.
+                //options.ConfigureWarnings(warnings => warnings.Throw(
+                //    RelationalEventId.QueryClientEvaluationWarning));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

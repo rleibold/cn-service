@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/mysql.data.entityframework/8.0.22/contentFiles/any/netstandard2.1/app.config.transform" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/mysql.data.entityframework/8.0.22/contentFiles/any/netstandard2.1/web.config.transform" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="appsettings.json" t="Include" />
@@ -24,6 +26,10 @@
       <e p="HealthChecks" t="Include">
         <e p="LiveHealthCheck.cs" t="Include" />
         <e p="ReadyHealthCheck.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="ChuckNorrisContext.cs" t="Include" />
+        <e p="ChuckNorrisItem.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
