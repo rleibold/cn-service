@@ -25,6 +25,10 @@
         <e p="LiveHealthCheck.cs" t="Include" />
         <e p="ReadyHealthCheck.cs" t="Include" />
       </e>
+      <e p="Models" t="Include">
+        <e p="ChuckNorrisContext.cs" t="Include" />
+        <e p="ChuckNorrisItem.cs" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
