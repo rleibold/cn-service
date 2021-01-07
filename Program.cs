@@ -12,6 +12,7 @@ namespace cn_service
         {
             var config = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: false)
+                .AddEnvironmentVariables()
                 .Build();
 
             string instrumentationKey = config["ApplicationInsights:InstrumentationKey"];
