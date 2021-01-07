@@ -1,38 +1,38 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}-deployment
+  name: cn-service
   labels:
-    app: {{ .Values.label.name }}
+    app: cn-service
 spec:
-  replicas: {{ .Values.replicas }}
+  replicas: 2
   selector:
     matchLabels:
-      app: {{ .Values.label.name }}
+      app: cn-service
   template:
     metadata:
       labels:
-        app: {{ .Values.label.name }}
-        environment: {{ .Values.environment }}
+        app: cn-service
+        #environment: {{ .Values.environment }}
     spec:
       containers:
-        - name: {{ .Values.container.name }}
-          image: {{ .Values.container.image }}:{{ .Values.container.tag }}
-          imagePullPolicy: {{ .Values.container.pullPolicy }}
+        - name: cn-service
+          image: rleibold/robs_repo:cn-service
+          imagePullPolicy: IfNotPresent
           ports:
-            - containerPort: {{ .Values.container.port }}
-          env:
-            - name: apphost
-              value: {{ .Values.apphost }}
-            - name: appenvironment
-              value: {{ .Values.environment}}
-              readinessProbe:
-                httpGet:
-                  path: /health/ready
-                  port: {{ .Values.container.port }}
-                initialDelaySeconds: {{ .Values.container.probeDelay }}
-              livenessProbe:
-                httpGet:
-                  path: /health/live
-                  port: {{ .Values.container.port }}
-                initialDelaySeconds: {{ .Values.container.probeDelay }}
+            - containerPort: 80
+          #env:
+          #  - name: apphost
+          #    value: {{ .Values.apphost }}
+          #  - name: appenvironment
+          #    value: {{ .Values.environment}}
+          #    readinessProbe:
+          #      httpGet:
+          #        path: /health/ready
+          #        port: {{ .Values.container.port }}
+          #      initialDelaySeconds: {{ .Values.container.probeDelay }}
+          #    livenessProbe:
+          #      httpGet:
+          #        path: /health/live
+          #        port: {{ .Values.container.port }}
+          #      initialDelaySeconds: {{ .Values.container.probeDelay }}

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f80904e4-1cb2-45b4-8122-e671375053c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +23,16 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Controllers/v1/SampleController.cs" />
-      <option value="$PROJECT_DIR$/appsettings.json" />
       <option value="$PROJECT_DIR$/Models/ChuckNorrisContext.cs" />
       <option value="$PROJECT_DIR$/Controllers/v1/ChuckNorrisController.cs" />
       <option value="$PROJECT_DIR$/cn-service.csproj" />
       <option value="$PROJECT_DIR$/Startup.cs" />
       <option value="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" />
+      <option value="$PROJECT_DIR$/chart/templates/service.yaml" />
+      <option value="$PROJECT_DIR$/chart/templates/deployment.yaml" />
+      <option value="$PROJECT_DIR$/Dockerfile" />
+      <option value="$PROJECT_DIR$/appsettings.json" />
+      <option value="$PROJECT_DIR$/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1merfODzRombahGdytLgf4uTEO8" />
