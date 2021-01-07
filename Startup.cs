@@ -51,7 +51,6 @@ namespace cn_service
             services.AddDbContext<ChuckNorrisContext>(options =>
             {
                 options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"));
-                //options.UseMySQL("Server=localhost;Database=chucknorris;Uid=root;Pwd=test123;");
                 // Changing default behavior when client evaluation occurs to throw.
                 // Default in EFCore would be to log warning when client evaluation is done.
                 //options.ConfigureWarnings(warnings => warnings.Throw(

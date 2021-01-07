@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80904e4-1cb2-45b4-8122-e671375053c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/v1/ChuckNorrisController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/v1/ChuckNorrisController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ChuckNorrisContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ChuckNorrisContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cn-service.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cn-service.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/cn-service.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/cn-service.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +23,12 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Controllers/v1/SampleController.cs" />
-      <option value="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" />
       <option value="$PROJECT_DIR$/appsettings.json" />
       <option value="$PROJECT_DIR$/Models/ChuckNorrisContext.cs" />
       <option value="$PROJECT_DIR$/Controllers/v1/ChuckNorrisController.cs" />
       <option value="$PROJECT_DIR$/cn-service.csproj" />
       <option value="$PROJECT_DIR$/Startup.cs" />
+      <option value="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1merfODzRombahGdytLgf4uTEO8" />
@@ -104,7 +92,9 @@
       <workItem from="1609865020538" duration="3876000" />
       <workItem from="1609952770866" duration="1062000" />
       <workItem from="1609956592146" duration="6144000" />
-      <workItem from="1609984169812" duration="873000" />
+      <workItem from="1609984169812" duration="1113000" />
+      <workItem from="1609986066743" duration="130000" />
+      <workItem from="1610029859062" duration="478000" />
     </task>
     <servers />
   </component>
