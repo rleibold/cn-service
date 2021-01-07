@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f80904e4-1cb2-45b4-8122-e671375053c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cn-service.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/templates/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/templates/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/templates/service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,9 @@
       <option value="$PROJECT_DIR$/cn-service.csproj" />
       <option value="$PROJECT_DIR$/Startup.cs" />
       <option value="$PROJECT_DIR$/Models/ChuckNorrisItem.cs" />
+      <option value="$PROJECT_DIR$/chart/templates/service.yaml" />
+      <option value="$PROJECT_DIR$/chart/templates/deployment.yaml" />
+      <option value="$PROJECT_DIR$/Dockerfile" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1merfODzRombahGdytLgf4uTEO8" />
