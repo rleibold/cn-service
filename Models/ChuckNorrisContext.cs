@@ -6,7 +6,7 @@ namespace cn_service.Models
     {
         public ChuckNorrisContext(DbContextOptions<ChuckNorrisContext> options) : base(options)
         { }
-        public DbSet<ChuckNorrisItem> CatalogItems { get; set; }
+        public DbSet<ChuckNorrisItem> ChuckNorrisItems { get; set; }
         
     }
 }

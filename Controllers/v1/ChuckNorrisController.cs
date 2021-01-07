@@ -1,5 +1,8 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using cn_service.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace cn_service.Controllers.v1
@@ -10,30 +13,33 @@ namespace cn_service.Controllers.v1
     public class ChuckNorrisController : ControllerBase
     {
         private readonly ILogger<SampleController> logger;
+        private readonly ChuckNorrisContext _chuckNorrisContext;
         
-        public ChuckNorrisController(ILogger<SampleController> logger)
+        public ChuckNorrisController(ILogger<SampleController> logger, ChuckNorrisContext chuckNorrisContext)
         {
             this.logger = logger;
+            this._chuckNorrisContext = chuckNorrisContext;
         }
 
         [HttpGet("{id}", Name = "GetById")]
-        public IActionResult GetById(string id)
+        public async Task<ActionResult<ChuckNorrisItem>> GetById(string id)
         {
-            if (id == null)
+            var items = await _chuckNorrisContext.ChuckNorrisItems.FindAsync(id);
+            
+            if (items == null) 
             {
                 return NotFound();
             }
 
-            return new ObjectResult(id); // TODO - should return real value
+            return items;
         }
 
-        /*
-        public IEnumerable<TodoItem> GetAll()
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ChuckNorrisItem>>> GetChuckNorrisItems()
         {
-            ToDoItems.GetAll();
+            return await _chuckNorrisContext.ChuckNorrisItems.ToListAsync();
         }
-        */
-         
+
     }
 
 }
